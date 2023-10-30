@@ -1,4 +1,3 @@
 #!/usr/bin/env bash
-# Bash script that displays listening ports
-
-netstat -ltup
+# Displays all listening ports
+netstat -l -p
